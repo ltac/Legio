@@ -145,6 +145,16 @@ class GVAR(RscDisplayAttributes_globalSetSkill): RscDisplayAttributes {
                             idc = 16189;
                             y = "5.5 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
                         };
+                        class Title7: Title5 {
+                            idc = -1;
+                            text = "SUPRESSION";
+                            toolTip = "Global AI Set Skill: Allow Suppressed AI";
+                            y = "6.6 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+                        };
+                        class Value6: Value5 {
+                            idc = 16190;
+                            y = "6.6 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+                        };
                     };
                 };
             };

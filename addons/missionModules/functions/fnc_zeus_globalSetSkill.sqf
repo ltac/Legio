@@ -55,6 +55,9 @@ if (!isServer) exitWith {};
         _val = _logic getVariable ["aiSkill_AUTOCOMBAT", -1];
         if (!(_val isEqualTo -1)) then { [QGVAR(aiSkill_AUTOCOMBAT), _val, false, true] call ace_common_fnc_setSetting; };
 
+        _val = _logic getVariable ["aiSkill_SUPPRESSION", -1];
+        if (!(_val isEqualTo -1)) then { [QGVAR(aiSkill_SUPPRESSION), _val, false, true] call ace_common_fnc_setSetting; };
+
         [QGVAR(aiSkill_set), true, false, true] call ace_common_fnc_setSetting;
         if (!GVAR(aiSkill_set)) exitWith {
             TRACE_1("Setting must be forced off", GVAR(aiSkill_set));

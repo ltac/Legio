@@ -125,4 +125,10 @@ class ACE_Settings {
         typeName = "BOOL";
         value = 1;
     };
+    class GVAR(aiSkill_SUPPRESSION) {
+        category = QUOTE(PREFIX);
+        displayName = "Global AI Set Skill: Allow Suppressed AI";
+        typeName = "BOOL";
+        value = 1;
+    };
 };

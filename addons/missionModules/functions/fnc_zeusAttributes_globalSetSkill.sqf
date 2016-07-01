@@ -104,6 +104,7 @@ private _fnc_onConfirm = {
     _logic setVariable ["aiSkill_spotting", sliderPosition (_display displayCtrl 16187), true];
     _logic setVariable ["aiSkill_COVER", cbChecked (_display displayCtrl 16188), true];
     _logic setVariable ["aiSkill_AUTOCOMBAT", cbChecked (_display displayCtrl 16189), true];
+    _logic setVariable ["aiSkill_SUPPRESSION", cbChecked (_display displayCtrl 16120), true];
     _logic setVariable ["set", true, true];
 };
 

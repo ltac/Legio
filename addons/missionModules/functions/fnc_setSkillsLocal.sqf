@@ -22,6 +22,12 @@ if (GVAR(aiSkill_AUTOCOMBAT)) then {
     _unit disableAI "AUTOCOMBAT";
 };
 
+if (GVAR(aiSkill_SUPPRESSION)) then {
+    _unit enableAI "SUPPRESSION";
+} else {
+    _unit disableAI "SUPPRESSION";
+};
+
 TRACE_1("ai sills set",_unit);
 
 #ifdef DEBUG_MODE_FULL
