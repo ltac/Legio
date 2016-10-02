@@ -2,7 +2,7 @@ class Cfg3DEN {
     class Group {
         class AttributeCategories {
             class GVAR(hcAttributeGroup) {
-                displayName = "POTATO: HC";
+                displayName = "LEGIO: HC";
                 collapsed = 0;
                 class Attributes {
                     class GVAR(move_to_hc) {

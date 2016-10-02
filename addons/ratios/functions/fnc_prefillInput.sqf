@@ -13,8 +13,8 @@
  * 1: Returned checkmark value <BOOL>
  *
  * Examples:
- * [_ratioArray,_ratioCount,0] call potato_ratios_prefillInput;
- * [_ratioArray,_ratioCount,1] call potato_ratios_prefillInput;
+ * [_ratioArray,_ratioCount,0] call legio_ratios_prefillInput;
+ * [_ratioArray,_ratioCount,1] call legio_ratios_prefillInput;
  *
  * Public: No
  */

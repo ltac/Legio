@@ -1,1 +1,1 @@
-#include "\z\potato\addons\assignGear\script_component.hpp"
+#include "\z\legio\addons\assignGear\script_component.hpp"

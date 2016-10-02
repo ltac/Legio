@@ -341,7 +341,7 @@ class Cfg3DEN {
     class Group {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Group ACRE Setup";
+                displayName = "LEGIO: Group ACRE Setup";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(babel) {
@@ -363,7 +363,7 @@ class Cfg3DEN {
     class Object {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Unit ACRE Setup";
+                displayName = "LEGIO: Unit ACRE Setup";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(babel) {

@@ -107,7 +107,7 @@ class Cfg3DEN {
     class Group {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Group Marker";
+                displayName = "LEGIO: Group Marker";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(addGroupMarker) {
@@ -123,7 +123,7 @@ class Cfg3DEN {
     class Object {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Unit Marker";
+                displayName = "LEGIO: Unit Marker";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(addUnitMarker) {

@@ -1,5 +1,5 @@
 #define COMPONENT ratios
-#include "\z\potato\addons\core\script_mod.hpp"
+#include "\z\legio\addons\core\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 #define DISABLE_COMPILE_CACHE // do not turn off
@@ -68,7 +68,7 @@
 #define RATIO_OUTPUT_3_IDC 785609
 #define RATIO_OUTPUT_3 GET_CTRL(RATIO_OUTPUT_3_IDC)
 
-#include "\z\potato\addons\core\script_macros.hpp"
+#include "\z\legio\addons\core\script_macros.hpp"
 
 #define SET_UI_VAR(var1,var2) (uiNamespace setVariable [QGVAR(var1), var2])
 #define GET_UI_VAR(var1) (uiNamespace getVariable [QGVAR(var1), nil])

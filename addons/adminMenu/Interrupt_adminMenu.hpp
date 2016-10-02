@@ -13,7 +13,7 @@ class RscShortcutButton;
 
 // Add Button to escape menu (borowed from AGM)
 
-class POTATO_EscapeButton_Base1: RscShortcutButton {
+class LEGIO_EscapeButton_Base1: RscShortcutButton {
     class ShortcutPos {
         left = 0;
         top = 0;
@@ -49,7 +49,7 @@ class POTATO_EscapeButton_Base1: RscShortcutButton {
     h = "1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
     action = QUOTE((findDisplay 49) closeDisplay 0; [] spawn FUNC(openAdminMenu););
 };
-class POTATO_EscapeButton_Base2: RscShortcutButton {
+class LEGIO_EscapeButton_Base2: RscShortcutButton {
     class ShortcutPos {
         left = 0;
         top = 0;
@@ -90,26 +90,26 @@ class POTATO_EscapeButton_Base2: RscShortcutButton {
 class RscStandardDisplay;
 class RscDisplayMPInterrupt: RscStandardDisplay {
     class controls {
-        class POTATO_EscapeButton1: POTATO_EscapeButton_Base1{};
-        class POTATO_EscapeButton2: POTATO_EscapeButton_Base2{};
+        class LEGIO_EscapeButton1: LEGIO_EscapeButton_Base1{};
+        class LEGIO_EscapeButton2: LEGIO_EscapeButton_Base2{};
     };
 };
 class RscDisplayInterrupt: RscStandardDisplay {
     class controls {
-        class POTATO_EscapeButton1: POTATO_EscapeButton_Base1{};
-        class POTATO_EscapeButton2: POTATO_EscapeButton_Base2{};
+        class LEGIO_EscapeButton1: LEGIO_EscapeButton_Base1{};
+        class LEGIO_EscapeButton2: LEGIO_EscapeButton_Base2{};
     };
 };
 class RscDisplayInterruptEditor3D: RscStandardDisplay {
     class controls {
-        class POTATO_EscapeButton1: POTATO_EscapeButton_Base1{};
-        class POTATO_EscapeButton2: POTATO_EscapeButton_Base2{};
+        class LEGIO_EscapeButton1: LEGIO_EscapeButton_Base1{};
+        class LEGIO_EscapeButton2: LEGIO_EscapeButton_Base2{};
     };
 };
 class RscDisplayInterruptEditorPreview: RscStandardDisplay {
     class controls {
-        class POTATO_EscapeButton1: POTATO_EscapeButton_Base1{};
-        class POTATO_EscapeButton2: POTATO_EscapeButton_Base2{};
+        class LEGIO_EscapeButton1: LEGIO_EscapeButton_Base1{};
+        class LEGIO_EscapeButton2: LEGIO_EscapeButton_Base2{};
     };
 };
 
@@ -143,7 +143,7 @@ class GVAR(adminMenuDialog) {
         class RscText_1000: RscText {
             idc = -1;
             style = 2;
-            text = "POTATO (from BourbonWarfare)"; //--- ToDo: Localize;
+            text = "LEGIO (from BourbonWarfare)"; //--- ToDo: Localize;
             x = 0.2 * safezoneW + safezoneX;
             y = 0.78 * safezoneH + safezoneY;
             w = 0.13 * safezoneW;

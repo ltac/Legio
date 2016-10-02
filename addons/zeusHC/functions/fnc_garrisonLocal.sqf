@@ -8,7 +8,7 @@
  * 2: Side of the group you want to spawn <SIDE>
  *
  * Example:
- * [_unitsToAdd, _unitPositions, _side] call potato_zeusHC_fnc_garrisonLocal
+ * [_unitsToAdd, _unitPositions, _side] call legio_zeusHC_fnc_garrisonLocal
  *
  * Public: Yes
  */
@@ -30,7 +30,7 @@ _this spawn {
         private _unit = _x;
         private _position = _unitPositions select _forEachIndex;
         _unit setPos _position;
-        _unit setVariable ["potato_aiFrameworks_vcom_garrisoned", true];
+        _unit setVariable ["legio_aiFrameworks_vcom_garrisoned", true];
 
         doStop _unit;
 

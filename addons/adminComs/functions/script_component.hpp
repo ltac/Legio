@@ -1,1 +1,1 @@
-#include "\z\potato\addons\adminComs\script_component.hpp"
+#include "\z\legio\addons\adminComs\script_component.hpp"

@@ -11,8 +11,8 @@
  * None
  *
  * Examples:
- * [true, [_ctrlText]] call potato_core_fnc_setControlFade; // fade control in
- * [false, [_ctrlText, _ctrlSet]] call potato_core_fnc_setControlFade; // fade control out
+ * [true, [_ctrlText]] call legio_core_fnc_setControlFade; // fade control in
+ * [false, [_ctrlText, _ctrlSet]] call legio_core_fnc_setControlFade; // fade control out
  *
  * Public: Yes
  */

@@ -5,7 +5,7 @@ class display3DEN {
             class Items {
                 items[] += {QUOTE(PREFIX)}; // += must be used; you want to expand the array, not override it!
                 class PREFIX {
-                    text = "POTATO"; // Item text
+                    text = "LEGIO"; // Item text
                     items[] = {};
                 };
             };

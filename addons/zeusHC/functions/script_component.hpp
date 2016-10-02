@@ -1,1 +1,1 @@
-#include "\z\potato\addons\zeusHC\script_component.hpp"
+#include "\z\legio\addons\zeusHC\script_component.hpp"

@@ -10,8 +10,8 @@
  * True if the group can be safely create, false otherwise <BOOL>
  *
  * Examples:
- * [west, 1] call potato_zeusHC_fnc_canCreateGroup;
- * [east, 5] call potato_zeusHC_fnc_canCreateGroup;
+ * [west, 1] call legio_zeusHC_fnc_canCreateGroup;
+ * [east, 5] call legio_zeusHC_fnc_canCreateGroup;
  *
  * Public: Yes
  */

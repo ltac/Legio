@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 if (hasInterface) then {
-    ["potato_becomeZeus", {
+    ["legio_becomeZeus", {
         params ["_unit"];
         systemChat "You have been assigned zeus";
         private _zeusIntent = getMissionConfigValue [QGVAR(zeusIntent), ""];

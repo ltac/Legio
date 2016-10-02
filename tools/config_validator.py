@@ -13,7 +13,7 @@ import time
 
 ######## GLOBALS #########
 MAINPREFIX = "Z"
-PREFIX = "POTATO"
+PREFIX = "LEGIO"
 ##########################
 
 def Fract_Sec(s):

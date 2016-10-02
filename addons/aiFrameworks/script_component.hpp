@@ -1,5 +1,5 @@
 #define COMPONENT aiFrameworks
-#include "\z\potato\addons\core\script_mod.hpp"
+#include "\z\legio\addons\core\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -13,7 +13,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_AIFRAMEWORK
 #endif
 
-#include "\z\potato\addons\core\script_macros.hpp"
+#include "\z\legio\addons\core\script_macros.hpp"
 
 #define QUADS(var1,var2,var3,var4) ##var1##_##var2##_##var3##_##var4
 #define V_PATHTO_SYS(var1,var2,var3) \MAINPREFIX\##var1\SUBPREFIX\##var2\vcom\functions\##var3.sqf

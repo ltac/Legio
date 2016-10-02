@@ -9,7 +9,7 @@ private _authorName = getMissionConfigValue ["author", "???"];
 private _worldName = getText (configFile >> "CfgWorlds" >> worldName >> "description");
 
 private _missionFrameworkDate = getMissionConfigValue ["bwmfDate", "Pre-March2016"];
-private _potatoVersion = getText (configFile >> "CfgPatches" >> "potato_core" >> "versionStr");
+private _legioVersion = getText (configFile >> "CfgPatches" >> "legio_core" >> "versionStr");
 
 _unit createDiaryRecord ["diary", ["Credits", format ["
 <font size=16>%1</font><br/>
@@ -21,5 +21,5 @@ BWMF Version: %4<br/>
 Based on F3 (http://www.ferstaberinde.com/f3/en/)<br/>
 <br/>
 <br/>
-POTATO Version: %5
-", _missionName, _authorName, _worldName, _missionFrameworkDate, _potatoVersion]]];
+LEGIO Version: %5
+", _missionName, _authorName, _worldName, _missionFrameworkDate, _legioVersion]]];

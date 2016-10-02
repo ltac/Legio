@@ -1,6 +1,6 @@
 /*
  * Author: AACO
- * Function to set the potato_zeusHC_addGroupToHC flag on groups.
+ * Function to set the legio_zeusHC_addGroupToHC flag on groups.
  * Should only be called through 3DEN
  *
  * Arguments:
@@ -8,7 +8,7 @@
  * 1: Value of flag (true/false) <BOOL>
  *
  * Example:
- * [grp1, true] call potato_zeusHC_fnc_transferSetVar;
+ * [grp1, true] call legio_zeusHC_fnc_transferSetVar;
  *
  * Public: No
  */

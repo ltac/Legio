@@ -4,7 +4,7 @@
  * marker hash
  *
  * Examples:
- * [] call potato_markers_fnc_initMarkerHash;
+ * [] call legio_markers_fnc_initMarkerHash;
  *
  * Public: No
  */

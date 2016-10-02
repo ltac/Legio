@@ -8,7 +8,7 @@
  * Return Value: Nothing
  *
  * Examples:
- * [allGroups] call potato_zeusHC_fnc_ungarrisonGroupBulk;
+ * [allGroups] call legio_zeusHC_fnc_ungarrisonGroupBulk;
  *
  * Public: Yes
  */

@@ -7,8 +7,8 @@
  * 0: Map or GPS IDC <NUMBER>
  *
  * Examples:
- * [(findDisplay 12), 52] call potato_markers_fnc_addMarkersToDisplay; // add markers to main map
- * [(findDisplay 133), 101] call potato_markers_fnc_addMarkersToDisplay; // add markers to GPS
+ * [(findDisplay 12), 52] call legio_markers_fnc_addMarkersToDisplay; // add markers to main map
+ * [(findDisplay 133), 101] call legio_markers_fnc_addMarkersToDisplay; // add markers to GPS
  *
  * Public: No
  */

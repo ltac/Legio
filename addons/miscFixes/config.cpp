@@ -3,12 +3,12 @@
 class CfgPatches {
     class ADDON {
         units[] = {};
-        weapons[] = {"potato_fakeNVG"};
+        weapons[] = {"legio_fakeNVG"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"potato_core", "mbg_celle2", "ace_ui", "rhs_c_weapons", "Taliban_fighters"};
-        author = "Potato";
+        requiredAddons[] = {"legio_core", "mbg_celle2", "ace_ui", "rhs_c_weapons", "Taliban_fighters"};
+        author = "Legio";
         authors[] = {"PabstMirror"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };
@@ -57,7 +57,7 @@ class CfgVehicles {
 
 class CfgWeapons {
     class NVGoggles;
-    class potato_fakeNVG: NVGoggles {
+    class legio_fakeNVG: NVGoggles {
         author = "pabst";
         modelOptics = QUOTE(PATHTOF(models\plotNVGs));
         model = "\A3\weapons_f\empty";

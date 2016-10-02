@@ -11,8 +11,8 @@
  * The created group or grpNull if the group couldn't be created <GROUP>
  *
  * Examples:
- * [GVAR(vicSpawnLocation), _vehicleClass, _side] call potato_zeusHC_fnc_spawnAVicSpawnLocal
- * [getPos player, "B_MBT_01_cannon_F", west] call potato_zeusHC_fnc_spawnAVicSpawnLocal
+ * [GVAR(vicSpawnLocation), _vehicleClass, _side] call legio_zeusHC_fnc_spawnAVicSpawnLocal
+ * [getPos player, "B_MBT_01_cannon_F", west] call legio_zeusHC_fnc_spawnAVicSpawnLocal
  *
  * Public: Yes
  */

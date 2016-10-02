@@ -17,7 +17,7 @@ if (_giveZeus) then {
         } forEach allCurators;
 
         if (isNull _zeusModule) then { //Only create a new zeus module if no free available
-            diag_log text format ["[POTATO] No free zeus module found, creating new"];
+            diag_log text format ["[LEGIO] No free zeus module found, creating new"];
             private _moduleGroup = createGroup GVAR(zeusCenter);
             _zeusModule = _moduleGroup createUnit ["ModuleCurator_F",[0,0,0],[],0,"NONE"];
             _zeusModule setVariable ["Owner", "-1"];
@@ -26,9 +26,9 @@ if (_giveZeus) then {
             _zeusModule setVariable ["Forced", 0];
         };
 
-        diag_log text format ["[POTATO] Assigning [%1] to Zeus [%2]", name _unit, _zeusModule];
+        diag_log text format ["[LEGIO] Assigning [%1] to Zeus [%2]", name _unit, _zeusModule];
         _unit assignCurator _zeusModule;
-        ["potato_becomeZeus", [_unit], [_unit]] call CBA_fnc_targetEvent;
+        ["legio_becomeZeus", [_unit], [_unit]] call CBA_fnc_targetEvent;
 
         if (missionNamespace getVariable ["ace_zeus_autoAddObjects", false]) then {
             TRACE_1("adding all units and veh to zeus",_zeusModule);
@@ -38,7 +38,7 @@ if (_giveZeus) then {
     };
 } else {
     if (!isNull _zeusModule) then {
-        diag_log text format ["[POTATO] Unassign [%1] to Zeus [%2]", name _unit, _zeusModule];
+        diag_log text format ["[LEGIO] Unassign [%1] to Zeus [%2]", name _unit, _zeusModule];
         unassignCurator _zeusModule;
     };
 };

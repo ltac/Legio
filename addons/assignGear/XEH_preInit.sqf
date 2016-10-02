@@ -4,9 +4,9 @@ ADDON = false;
 
 #include "XEH_PREP.hpp"
 
-GVAR(usePotato) = ((getNumber (missionConfigFile >> "CfgLoadouts" >> "usePotato")) == 1);
+GVAR(useLegio) = ((getNumber (missionConfigFile >> "CfgLoadouts" >> "useLegio")) == 1);
 
-if (GVAR(usePotato)) then {
+if (GVAR(useLegio)) then {
     GVAR(loadoutCache) = call CBA_fnc_createNamespace;
 
     GVAR(allowMagnifiedOptics) = ((getNumber (missionConfigFile >> "CfgLoadouts" >> "allowMagnifiedOptics")) == 1);
@@ -14,9 +14,9 @@ if (GVAR(usePotato)) then {
     GVAR(maxRandomization) = if (isNumber (missionConfigFile >> "CfgLoadouts" >> "maxRandomization")) then { getNumber (missionConfigFile >> "CfgLoadouts" >> "maxRandomization") } else {5};
     GVAR(setVehicleLoadouts) = if (isNumber (missionConfigFile >> "CfgLoadouts" >> "setVehicleLoadouts")) then {getNumber (missionConfigFile >> "CfgLoadouts" >> "setVehicleLoadouts")} else {1};
 
-    diag_log text format ["[POTATO-assignGear] Enabled [useFallback:%1 allowMagnifiedOptics:%2 maxRandomization:%3 setVehicleLoadouts:%4]", GVAR(useFallback), GVAR(allowMagnifiedOptics), GVAR(maxRandomization), GVAR(setVehicleLoadouts)];
+    diag_log text format ["[LEGIO-assignGear] Enabled [useFallback:%1 allowMagnifiedOptics:%2 maxRandomization:%3 setVehicleLoadouts:%4]", GVAR(useFallback), GVAR(allowMagnifiedOptics), GVAR(maxRandomization), GVAR(setVehicleLoadouts)];
 } else {
-    diag_log text format ["[POTATO-assignGear] Disabled"];
+    diag_log text format ["[LEGIO-assignGear] Disabled"];
 };
 
 ADDON = true;

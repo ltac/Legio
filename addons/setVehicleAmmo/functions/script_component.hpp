@@ -1,1 +1,1 @@
-#include "\z\potato\addons\setVehicleAmmo\script_component.hpp"
+#include "\z\legio\addons\setVehicleAmmo\script_component.hpp"

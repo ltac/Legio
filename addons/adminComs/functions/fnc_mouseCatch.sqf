@@ -1,4 +1,4 @@
-//potato_adminComs_fnc_mouseCatch
+//legio_adminComs_fnc_mouseCatch
 
 #include "script_component.hpp"
 TRACE_1("params",_this);

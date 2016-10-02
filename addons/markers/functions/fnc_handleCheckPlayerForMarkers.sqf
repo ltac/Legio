@@ -7,7 +7,7 @@
  * 0: changed unit <OBJECT>
  *
  * Examples:
- * [player] call potato_markers_fnc_handleCheckPlayerForMarkers;
+ * [player] call legio_markers_fnc_handleCheckPlayerForMarkers;
  *
  * Public: No
  */

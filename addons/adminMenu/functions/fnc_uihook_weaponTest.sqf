@@ -3,7 +3,7 @@
 TRACE_1("params",_this);
 
 private _debugMsg = format ["Doing Weapon Test"];
-["potato_adminMsg", [_debugMsg, profileName]] call CBA_fnc_globalEvent;
+["legio_adminMsg", [_debugMsg, profileName]] call CBA_fnc_globalEvent;
 
 //Needs a player to add to breifing:
 if ((isNull player) || {!alive player}) exitWith {};
@@ -140,7 +140,7 @@ _textArray append _eastClasses;
 _textArray append _indClasses;
 _textArray append _civClasses;
 
-if (!(player diarySubjectExists "POTATO")) then {
-    player createDiarySubject ["POTATO", "POTATO"];
+if (!(player diarySubjectExists "LEGIO")) then {
+    player createDiarySubject ["LEGIO", "LEGIO"];
 };
-player createDiaryRecord ["POTATO", ["Weapon Report", (_textArray joinString "<br/>")]];
+player createDiaryRecord ["LEGIO", ["Weapon Report", (_textArray joinString "<br/>")]];

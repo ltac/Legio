@@ -7,7 +7,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ACE_COMMON"};
         author = "Bourbon Warfare";
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };
@@ -19,13 +19,13 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@POTATO";
-        name = "POTATO";
-        picture = QUOTE(PATHTOF(potato_icon_ca.paa));
+        dir = "@LEGIO";
+        name = "LEGIO";
+        picture = QUOTE(PATHTOF(legio_icon_ca.paa));
         hidePicture = "false";
         hideName = "false";
         actionName = "Website";
-        action = "https://github.com/BourbonWarfare/POTATO";
+        action = "https://github.com/BourbonWarfare/LEGIO";
         description = "";
     };
 };

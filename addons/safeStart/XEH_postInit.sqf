@@ -27,7 +27,7 @@
     };
 };
 
-["potato_safeStartOn", {
+["legio_safeStartOn", {
     GVAR(safeStartEnabled) = true;
     [] call FUNC(showTimer);
 }] call CBA_fnc_addEventHandler;

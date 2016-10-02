@@ -66,16 +66,16 @@ def getFunctions(filepath):
 
     fileFuncs = []
     for func in modfuncs:
-        fileFuncs.append("potato_{0}_fnc_{1}".format(selfmodule,func))
+        fileFuncs.append("legio_{0}_fnc_{1}".format(selfmodule,func))
 
     for func in aiFuncs:
-        fileFuncs.append("potato_{0}_vcom_fnc_{1}".format(selfmodule,func))
+        fileFuncs.append("legio_{0}_vcom_fnc_{1}".format(selfmodule,func))
         
     for func in coreFuncs:
-        fileFuncs.append("potato_core_fnc_{1}".format(selfmodule,func))
+        fileFuncs.append("legio_core_fnc_{1}".format(selfmodule,func))
 
     for exModule,func in exfuncs:
-        fileFuncs.append("potato_{0}_fnc_{1}".format(exModule, func))
+        fileFuncs.append("legio_{0}_fnc_{1}".format(exModule, func))
 
     return fileFuncs
 
@@ -97,10 +97,10 @@ def getStrings(filepath):
 
     fileStrings = []
     for localString in modStrings:
-        fileStrings.append("STR_POTATO_{0}_{1}".format(selfmodule, localString))
+        fileStrings.append("STR_LEGIO_{0}_{1}".format(selfmodule, localString))
 
     for (exModule, exString) in exStrings:
-        fileStrings.append("STR_POTATO_{0}_{1}".format(exModule, exString))
+        fileStrings.append("STR_LEGIO_{0}_{1}".format(exModule, exString))
 
     return fileStrings
 

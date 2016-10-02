@@ -4,10 +4,10 @@ class CfgPatches {
     class ADDON {
         units[] = {"Ares_Module_Reinforcements_Spawn_Units"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"potato_core","potato_zeusHC","Ares"};
-        author = "Potato";
+        requiredAddons[] = {"legio_core","legio_zeusHC","Ares"};
+        author = "Legio";
         authors[] = {"AACO"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };

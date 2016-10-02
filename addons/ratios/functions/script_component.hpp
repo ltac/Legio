@@ -1,1 +1,1 @@
-#include "\z\potato\addons\ratios\script_component.hpp"
+#include "\z\legio\addons\ratios\script_component.hpp"

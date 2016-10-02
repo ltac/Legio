@@ -12,9 +12,9 @@
  * nil if there was an error, otherwise an empty string <ANY>
  *
  * Examples:
- * ["test hint", "hint"] call potato_zeusHC_fnc_hcPassthrough;
- * [[], "potato_zeusHC_fnc_buildACache"] call potato_zeusHC_fnc_hcPassthrough;
- * [[], "potato_zeusHC_fnc_buildACache",true] call potato_zeusHC_fnc_hcPassthrough;
+ * ["test hint", "hint"] call legio_zeusHC_fnc_hcPassthrough;
+ * [[], "legio_zeusHC_fnc_buildACache"] call legio_zeusHC_fnc_hcPassthrough;
+ * [[], "legio_zeusHC_fnc_buildACache",true] call legio_zeusHC_fnc_hcPassthrough;
  *
  * Public: Yes
  */

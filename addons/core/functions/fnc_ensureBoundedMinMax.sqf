@@ -14,9 +14,9 @@
  *     1: The ensured maximum number within a range <NUMBER>
  *
  * Examples:
- * [1, 0, 0, 1] call potato_core_fnc_ensureBoundedMinMax; // returns [0,1]
- * [2, 0, 0, 1] call potato_core_fnc_ensureBoundedMinMax; // returns [0,1]
- * [0, 1, 0.5, 1] call potato_core_fnc_ensureBoundedMinMax; // returns [0.5, 1]
+ * [1, 0, 0, 1] call legio_core_fnc_ensureBoundedMinMax; // returns [0,1]
+ * [2, 0, 0, 1] call legio_core_fnc_ensureBoundedMinMax; // returns [0,1]
+ * [0, 1, 0.5, 1] call legio_core_fnc_ensureBoundedMinMax; // returns [0.5, 1]
  *
  * Public: Yes
  */

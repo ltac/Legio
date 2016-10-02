@@ -10,7 +10,7 @@
  * Nothing
  *
  * Example:
- * [grp1, "This is Group 1"] call potato_miscFixes_fnc_setGroupID;
+ * [grp1, "This is Group 1"] call legio_miscFixes_fnc_setGroupID;
  */
 
 #include "script_component.hpp"

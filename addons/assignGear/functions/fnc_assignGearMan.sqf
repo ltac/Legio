@@ -9,13 +9,13 @@
  * Nothing
  *
  * Example:
- * [player] call potato_assignGear_fnc_assignGearMan;
+ * [player] call legio_assignGear_fnc_assignGearMan;
  */
 // #define DEBUG_MODE_FULL
 #include "script_component.hpp"
 
 TRACE_1("params",_this);
-if (!GVAR(usePotato)) exitWith {TRACE_1("disabled",GVAR(usePotato))};
+if (!GVAR(useLegio)) exitWith {TRACE_1("disabled",GVAR(useLegio))};
 
 params ["_unit"];
 TRACE_2("",_unit,local _unit);
@@ -34,7 +34,7 @@ if ((!isClass(_path)) && GVAR(useFallback)) then {
     _path = missionConfigFile >> "CfgLoadouts" >> _faction >> "fallback";
 };
 
-// diag_log text format ["[POTATO-assignGear] Gear values: { _unit: %1, _faction: %2, _unitClassname: %3, _loadout: %4, _path: %5  }", _unit, _faction, _unitClassname, _loadout, _path];
+// diag_log text format ["[LEGIO-assignGear] Gear values: { _unit: %1, _faction: %2, _unitClassname: %3, _loadout: %4, _path: %5  }", _unit, _faction, _unitClassname, _loadout, _path];
 
 if (!isClass(_path)) exitWith {
     TRACE_2("No Class Found",_unit,typeOf _unit);

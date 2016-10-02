@@ -5,10 +5,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"potato_core", "3den"};
-        author = "Potato";
+        requiredAddons[] = {"legio_core", "3den"};
+        author = "Legio";
         authors[] = {"PabstMirror"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };

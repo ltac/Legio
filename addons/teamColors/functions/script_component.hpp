@@ -1,1 +1,1 @@
-#include "\z\potato\addons\teamColors\script_component.hpp"
+#include "\z\legio\addons\teamColors\script_component.hpp"

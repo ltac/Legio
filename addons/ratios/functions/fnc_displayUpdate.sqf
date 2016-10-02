@@ -7,7 +7,7 @@
  * 1: Array of side statuses (enabled/disabled) in order [west,east,resistance] <ARRAY>
  *
  * Examples:
- * [_sideCount,_sideArray] call potato_ratios_displayUpdate;
+ * [_sideCount,_sideArray] call legio_ratios_displayUpdate;
  *
  * Public: No
  */

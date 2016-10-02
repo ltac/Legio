@@ -8,8 +8,8 @@
  * 0: index of the faction list <NUMBER>
  *
  * Examples:
- * [1] call potato_zeusHC_fnc_buildAGroupDialogFactionChange; //Faction in the first index
- * [5] call potato_zeusHC_fnc_buildAGroupDialogFactionChange; //Faction in the fifth index
+ * [1] call legio_zeusHC_fnc_buildAGroupDialogFactionChange; //Faction in the first index
+ * [5] call legio_zeusHC_fnc_buildAGroupDialogFactionChange; //Faction in the fifth index
  *
  * Public: No
  */

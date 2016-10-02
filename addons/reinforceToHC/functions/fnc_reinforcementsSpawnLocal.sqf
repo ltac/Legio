@@ -27,7 +27,7 @@
  *         _rp,
  *         _rpSize,
  *         _spawnPosition
- * ] call potato_reinforceToHC_fnc_reinforcementsSpawnLocal;
+ * ] call legio_reinforceToHC_fnc_reinforcementsSpawnLocal;
  *
  * Public: No
  */
@@ -63,7 +63,7 @@ private _vehicle = vehicle (leader _vehicleGroup);
 
 {
     _x allowFleeing 0;
-    _x setVariable ["potato_aiFrameworks_vcom_disabledUnit", true];
+    _x setVariable ["legio_aiFrameworks_vcom_disabledUnit", true];
 } forEach (crew _vehicle);
 
 if (_lzSize == 150) then {

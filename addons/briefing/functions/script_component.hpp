@@ -1,1 +1,1 @@
-#include "\z\potato\addons\briefing\script_component.hpp"
+#include "\z\legio\addons\briefing\script_component.hpp"

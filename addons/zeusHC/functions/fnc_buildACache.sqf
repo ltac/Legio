@@ -3,7 +3,7 @@
  * Function used to create a cache of spawnable units
  *
  * Example:
- * [] call potato_zeusHC_fnc_buildACache;
+ * [] call legio_zeusHC_fnc_buildACache;
  *
  * Public: No
  */

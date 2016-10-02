@@ -3,7 +3,7 @@
  * Helper function used to get an array of sides markers should be displayed for
  *
  * Examples:
- * [] call potato_markers_fnc_getSideArray;
+ * [] call legio_markers_fnc_getSideArray;
  *
  * Public: No
  */

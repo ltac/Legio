@@ -9,7 +9,7 @@
  * <ARRAY>
  *
  * Example:
- * [missionConfigFile >> "CfgLoadouts" >> (faction player) >> (typeOf player)] call potato_assignGear_fnc_getLoadoutFromConfig
+ * [missionConfigFile >> "CfgLoadouts" >> (faction player) >> (typeOf player)] call legio_assignGear_fnc_getLoadoutFromConfig
  */
 #include "script_component.hpp"
 
@@ -93,7 +93,7 @@ private _fnc_addItemsToContainer = {
                 };
             };
             if (_mass < 0) exitWith {
-                diag_log text format ["[POTATO-assignGear] Item Not Found [%1]", _itemToAdd];
+                diag_log text format ["[LEGIO-assignGear] Item Not Found [%1]", _itemToAdd];
                 "";
             };
             if (!((_allowedSlots isEqualTo []) || {_indexSlotNum in _allowedSlots})) exitWith {
@@ -147,16 +147,16 @@ private _fnc_getWeaponArray = {
                             nil
                         } count configProperties [_config >> "ItemInfo" >> "OpticsModes"];
                         if (_minZoom < 0.25) then {
-                            diag_log text format ["[POTATO-assignGear] allowMagnifiedOptics is false, not adding %1 (opticsZoomMin %2)", _classname, _minZoom];
+                            diag_log text format ["[LEGIO-assignGear] allowMagnifiedOptics is false, not adding %1 (opticsZoomMin %2)", _classname, _minZoom];
                             _classname = "";
                         };
                     };
                     _weaponArray set [3, _classname]}; //optic
             case (302): {_weaponArray set [6, _classname]}; //bipod
-                default {diag_log text format ["[POTATO-assignGear] - Attachment [%1] has unknown type", _classname];};
+                default {diag_log text format ["[LEGIO-assignGear] - Attachment [%1] has unknown type", _classname];};
             };
         } else {
-            diag_log text format ["[POTATO-assignGear] - Attachment [%1] not compatible with [%2]", _classname, _weapon];
+            diag_log text format ["[LEGIO-assignGear] - Attachment [%1] not compatible with [%2]", _classname, _weapon];
         };
     } forEach _attachments;
 
@@ -205,7 +205,7 @@ private _handgunWeaponArray = if (_configHandguns isEqualTo []) then {[]} else {
     if (_type >= 0) then {
         _assignedItems set [_type, _x];
     } else {
-        if (_type == -1) then { diag_log text format ["[POTATO-assignGear] - linkedItems [%1] unknown type", _x]; };
+        if (_type == -1) then { diag_log text format ["[LEGIO-assignGear] - linkedItems [%1] unknown type", _x]; };
     };
 } forEach _configLinkedItems;
 

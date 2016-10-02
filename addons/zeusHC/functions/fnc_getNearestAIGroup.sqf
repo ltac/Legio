@@ -9,7 +9,7 @@
  * grpNull if there was an error, the closest group to the provided object <GROUP>
  *
  * Examples:
- * [player] call potato_zeusHC_fnc_getNearestAIGroup;
+ * [player] call legio_zeusHC_fnc_getNearestAIGroup;
  *
  * Public: Yes
  */

@@ -5,10 +5,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"potato_core", "rhs_c_weapons"};
-        author = "Potato";
+        requiredAddons[] = {"legio_core", "rhs_c_weapons"};
+        author = "Legio";
         authors[] = {"AACO"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };

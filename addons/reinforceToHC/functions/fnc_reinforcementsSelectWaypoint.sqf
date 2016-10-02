@@ -12,7 +12,7 @@
  * The selected waypoint <OBJECT>
  *
  * Example:
- * [GVAR(allLzs), _vehicleLZIndex, "Ares_Lz_Count", GVAR(reinforcementLocation)] call potato_reinforceToHC_fnc_reinforcementsSelectWaypoint;
+ * [GVAR(allLzs), _vehicleLZIndex, "Ares_Lz_Count", GVAR(reinforcementLocation)] call legio_reinforceToHC_fnc_reinforcementsSelectWaypoint;
  *
  * Public: No
  */

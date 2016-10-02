@@ -5,10 +5,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"potato_core"};
-        author = "Potato";
+        requiredAddons[] = {"legio_core"};
+        author = "Legio";
         authors[] = {"PabstMirror"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };
@@ -19,7 +19,7 @@ class CfgPatches {
 class ACE_Settings {
     class GVAR(showTimer) {
         category = QUOTE(PREFIX);
-        displayName = "Potato: Show SafeStart Timer";
+        displayName = "Legio: Show SafeStart Timer";
         description = "Show the safe start timer";
         typeName = "BOOL";
         value = 1;

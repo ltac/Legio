@@ -10,7 +10,7 @@
  * Nothing
  *
  * Example:
- * [cursorTarget] call potato_assignGear_fnc_assignGearVehicle;
+ * [cursorTarget] call legio_assignGear_fnc_assignGearVehicle;
  */
 // #define DEBUG_MODE_FULL
 #include "script_component.hpp"
@@ -18,7 +18,7 @@
 params ["_theVehicle", "_defaultLoadout"];
 TRACE_2("params",_theVehicle,_defaultLoadout);
 
-if (!GVAR(usePotato)) exitWith {TRACE_1("disabled",GVAR(usePotato))};
+if (!GVAR(useLegio)) exitWith {TRACE_1("disabled",GVAR(useLegio))};
 
 private _typeOf = typeOf _theVehicle;
 private _loadout = _theVehicle getVariable ["F_Gear", _typeOf];
@@ -58,7 +58,7 @@ if (!isClass _path) then {
 };
 
 if (!isClass _path) exitWith {
-    diag_log text format ["[POTATO-AssignGear] - No loadout found for %1 (typeOf %2) (kindOf %3)", _theVehicle, typeof _theVehicle, _loadout];
+    diag_log text format ["[LEGIO-AssignGear] - No loadout found for %1 (typeOf %2) (kindOf %3)", _theVehicle, typeof _theVehicle, _loadout];
 };
 
 //Clean out starting inventory (even if there is no class)

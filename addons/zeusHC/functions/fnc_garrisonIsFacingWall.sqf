@@ -11,8 +11,8 @@
  * True if the object is facing a wall, false otherwise <BOOL>
  *
  * Examples:
- * [_unit, 0, 0] call potato_zeusHC_fnc_garrisonIsFacingWall
- * [_unit, _degree] call potato_zeusHC_fnc_garrisonIsFacingWall
+ * [_unit, 0, 0] call legio_zeusHC_fnc_garrisonIsFacingWall
+ * [_unit, _degree] call legio_zeusHC_fnc_garrisonIsFacingWall
  *
  * Public: Yes
  */

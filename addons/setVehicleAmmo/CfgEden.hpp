@@ -57,7 +57,7 @@ class Cfg3DEN {
     class Object {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Set Vehicle Ammo";
+                displayName = "LEGIO: Set Vehicle Ammo";
                 collapsed = 1;
                 class Attributes {
                     class ADDON {

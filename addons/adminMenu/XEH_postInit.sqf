@@ -2,7 +2,7 @@
 
 [QGVAR(resetGear), {
     params ["_unit"];
-    diag_log text format ["[POTATO] Reseting Gear on %1 [%2]", (name _unit), _unit];
+    diag_log text format ["[LEGIO] Reseting Gear on %1 [%2]", (name _unit), _unit];
     if ((isNull _unit) || {!alive _unit} || {!local _unit}) exitWith {};
 
     removeAllWeapons _unit;
@@ -13,11 +13,11 @@
     removeBackpack _unit;
 
     [{
-        if (missionNamespace getVariable [QEGVAR(assignGear,usePotato), false]) then {
-            diag_log text format ["[POTATO] Calling potato_assignGear_fnc_assignGearMan"];
-            _this call potato_assignGear_fnc_assignGearMan;
+        if (missionNamespace getVariable [QEGVAR(assignGear,useLegio), false]) then {
+            diag_log text format ["[LEGIO] Calling legio_assignGear_fnc_assignGearMan"];
+            _this call legio_assignGear_fnc_assignGearMan;
         } else {
-            diag_log text format ["[POTATO] Calling F_fnc_assignGearMan"];
+            diag_log text format ["[LEGIO] Calling F_fnc_assignGearMan"];
             _this call F_fnc_assignGearMan;
         };
     }, [_unit], 0.5] call CBA_fnc_waitAndExecute;

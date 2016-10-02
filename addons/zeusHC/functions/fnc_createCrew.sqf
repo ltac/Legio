@@ -13,7 +13,7 @@
  * The created group or grpNull if the group couldn't be created <GROUP>
  *
  * Examples:
- * [west, vic, "SoldierWB", true] spawn potato_zeusHC_fnc_createCrew;
+ * [west, vic, "SoldierWB", true] spawn legio_zeusHC_fnc_createCrew;
  *
  * Public: Yes
  */

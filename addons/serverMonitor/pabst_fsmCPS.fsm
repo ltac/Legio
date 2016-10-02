@@ -21,7 +21,7 @@ class FSM
     class Start
     {
       name = "Start";
-      init = /*%FSM<STATEINIT""">*/"potato_serverMonitor_fsmNo = 0;"/*%FSM</STATEINIT""">*/;
+      init = /*%FSM<STATEINIT""">*/"legio_serverMonitor_fsmNo = 0;"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
@@ -42,8 +42,8 @@ class FSM
     class Count_CPS
     {
       name = "Count_CPS";
-      init = /*%FSM<STATEINIT""">*/"diag_log text format [""[POTATO] Starting CPS count @ %1"", time];"/*%FSM</STATEINIT""">*/;
-      precondition = /*%FSM<STATEPRECONDITION""">*/"potato_serverMonitor_fsmNo = potato_serverMonitor_fsmNo + 1;"/*%FSM</STATEPRECONDITION""">*/;
+      init = /*%FSM<STATEINIT""">*/"diag_log text format [""[LEGIO] Starting CPS count @ %1"", time];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/"legio_serverMonitor_fsmNo = legio_serverMonitor_fsmNo + 1;"/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
         /*%FSM<LINK "dummy">*/

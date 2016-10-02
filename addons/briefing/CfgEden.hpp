@@ -45,7 +45,7 @@ class Cfg3DEN {
     class Group {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Group Briefing";
+                displayName = "LEGIO: Group Briefing";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(brief) {
@@ -64,7 +64,7 @@ class Cfg3DEN {
     class Object {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Unit Briefing";
+                displayName = "LEGIO: Unit Briefing";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(brief) {

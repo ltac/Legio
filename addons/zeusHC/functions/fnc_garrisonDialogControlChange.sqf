@@ -7,7 +7,7 @@
  * 0: arbitrary index of control set to be updated <NUMBER>
  *
  * Example:
- * [true,0] call potato_zeusHC_fnc_garrisonDialogControlChange;
+ * [true,0] call legio_zeusHC_fnc_garrisonDialogControlChange;
  *
  * Public: No
  */

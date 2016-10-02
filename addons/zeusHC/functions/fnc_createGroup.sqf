@@ -15,8 +15,8 @@
  * The created group or grpNull if the group couldn't be created <GROUP>
  *
  * Examples:
- * [west, position player, ["SoldierWB"]] call potato_zeusHC_fnc_createGroup;
- * [east, [1,2,3], ["SoldierWB","SoldierWB"], "FORM", "_this setPos [4,5,6];"] call potato_zeusHC_fnc_createGroup;
+ * [west, position player, ["SoldierWB"]] call legio_zeusHC_fnc_createGroup;
+ * [east, [1,2,3], ["SoldierWB","SoldierWB"], "FORM", "_this setPos [4,5,6];"] call legio_zeusHC_fnc_createGroup;
  *
  * Public: Yes
  */

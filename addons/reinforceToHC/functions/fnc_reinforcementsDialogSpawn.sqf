@@ -4,7 +4,7 @@
  * Should only be called from UI events
  *
  * Example:
- * [] call potato_reinforceToHC_fnc_reinforcementsDialogSpawn;
+ * [] call legio_reinforceToHC_fnc_reinforcementsDialogSpawn;
  *
  * Public: No
  */

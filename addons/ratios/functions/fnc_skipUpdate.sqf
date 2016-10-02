@@ -15,7 +15,7 @@
  * True if the ratio update can be skipped, false otherwise <BOOL>
  *
  * Examples:
- * [_ratioInput1, _ratioInput2, _ratioInput3, _players, _ratioChecked1, _ratioChecked2, _ratioChecked3] call potato_ratios_skipUpdate;
+ * [_ratioInput1, _ratioInput2, _ratioInput3, _players, _ratioChecked1, _ratioChecked2, _ratioChecked3] call legio_ratios_skipUpdate;
  *
  * Public: No
  */

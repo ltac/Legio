@@ -6,8 +6,8 @@
  * 0: Map control <CONTROL>
  *
  * Examples:
- * [(findDisplay 12) displayCtrl 52] call potato_markers_fnc_drawMarkers; // draw markers on map
- * [(findDisplay 133) displayCtrl 101] call potato_markers_fnc_drawMarkers; // draw markers on GPS
+ * [(findDisplay 12) displayCtrl 52] call legio_markers_fnc_drawMarkers; // draw markers on map
+ * [(findDisplay 133) displayCtrl 101] call legio_markers_fnc_drawMarkers; // draw markers on GPS
  *
  * Public: No
  */

@@ -1,4 +1,4 @@
-#include "\z\potato\addons\missionModules\script_component.hpp"
+#include "\z\legio\addons\missionModules\script_component.hpp"
 
 #define SUB_SKILLS [\
     ["general",GVAR(aiSkill_general_min),GVAR(aiSkill_general_max)],\

@@ -9,8 +9,8 @@
  * True if the info was added to the hash, false otherwise <BOOL>
  *
  * Examples:
- * [player] call potato_markers_fnc_addMarkerInfoToHash;
- * [group player] call potato_markers_fnc_addMarkerInfoToHash;
+ * [player] call legio_markers_fnc_addMarkerInfoToHash;
+ * [group player] call legio_markers_fnc_addMarkerInfoToHash;
  *
  * Public: Yes
  */

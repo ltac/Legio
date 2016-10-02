@@ -7,7 +7,7 @@
  * Client ID of the least loaded HC, or client ID of the server if no HCs are available <NUMBER>
  *
  * Examples:
- * [] call potato_zeusHC_fnc_getSpawnMachineId
+ * [] call legio_zeusHC_fnc_getSpawnMachineId
  *
  * Public: Yes
  */

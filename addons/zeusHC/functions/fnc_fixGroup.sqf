@@ -8,7 +8,7 @@
  * Return Value: Nothing
  *
  * Examples:
- * [group player] call potato_zeusHC_fnc_fixGroup;
+ * [group player] call legio_zeusHC_fnc_fixGroup;
  *
  * Public: Yes
  */

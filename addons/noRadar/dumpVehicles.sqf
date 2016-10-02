@@ -1,6 +1,6 @@
 // PabstMirror
 // To Use:
-//     call compile preprocessFileLineNumbers "\z\potato\addons\noRadar\dumpVehicles.sqf";
+//     call compile preprocessFileLineNumbers "\z\legio\addons\noRadar\dumpVehicles.sqf";
 
 
 _key = diag_frameno;

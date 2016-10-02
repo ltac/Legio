@@ -1,4 +1,4 @@
-#include "\z\potato\addons\reinforceToHC\script_component.hpp"
+#include "\z\legio\addons\reinforceToHC\script_component.hpp"
 
 #define DISPLAY_NAME_INDEX 0
 #define SIDE_INDEX 1

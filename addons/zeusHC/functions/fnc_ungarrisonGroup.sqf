@@ -8,7 +8,7 @@
  * Return Value: Nothing
  *
  * Examples:
- * [group player] call potato_zeusHC_fnc_ungarrisonGroup;
+ * [group player] call legio_zeusHC_fnc_ungarrisonGroup;
  *
  * Public: Yes
  */
@@ -27,5 +27,5 @@ if (isNull _group || !(local _group)) exitWith { ERROR("Group is null/not local,
 {
     _x doWatch objNull;
     _x doMove (getPos _x);
-    _x setVariable ["potato_aiFrameworks_vcom_garrisoned", false];
+    _x setVariable ["legio_aiFrameworks_vcom_garrisoned", false];
 } forEach (units _group);

@@ -20,7 +20,7 @@
  *     1,
  *     3,
  *     getPos player
- * ] call potato_zeusHC_fnc_garrisonSpawn
+ * ] call legio_zeusHC_fnc_garrisonSpawn
  *
  * Public: Yes
  */
@@ -63,7 +63,7 @@ if (count _buildingPositions < 1) exitWith {
     ["Did not find any buildings to garrison (is your occupy chance to low, or min occupy units to high?)"] call FUNC(sendCuratorHint);
 };
 
-diag_log text format ["[POTATO] Garrison Running With Max [%1]", _unitLimit];
+diag_log text format ["[LEGIO] Garrison Running With Max [%1]", _unitLimit];
 
 [_buildingPositions, _side, _units, _unitLimit, _occupyMin, _occupyMax] spawn {
     params ["_buildingPositions","_side","_units","_unitLimit","_occupyMin","_occupyMax"];

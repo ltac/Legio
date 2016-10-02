@@ -9,12 +9,12 @@
  * True if the input is "true", "1" or, 1 (case insensitive) <BOOL>
  *
  * Examples:
- * ["tRuE"] call potato_core_fnc_parseBool; // returns true
- * ["falSe"] call potato_core_fnc_parseBool; // returns false
- * ["1"] call potato_core_fnc_parseBool; // returns true
- * [1] call potato_core_fnc_parseBool; // returns true
- * [nil] call potato_core_fnc_parseBool; // returns false
- * ["POTATO (literally anything except 'true', '1' or, 1)"] call potato_core_fnc_parseBool; // returns false
+ * ["tRuE"] call legio_core_fnc_parseBool; // returns true
+ * ["falSe"] call legio_core_fnc_parseBool; // returns false
+ * ["1"] call legio_core_fnc_parseBool; // returns true
+ * [1] call legio_core_fnc_parseBool; // returns true
+ * [nil] call legio_core_fnc_parseBool; // returns false
+ * ["LEGIO (literally anything except 'true', '1' or, 1)"] call legio_core_fnc_parseBool; // returns false
  *
  * Public: Yes
  */

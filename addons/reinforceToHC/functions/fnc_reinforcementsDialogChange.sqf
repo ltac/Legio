@@ -5,7 +5,7 @@
  * Should only be called from UI events
  *
  * Example:
- * [] call potato_zeusHC_fnc_reinforcementsDialogChange;
+ * [] call legio_zeusHC_fnc_reinforcementsDialogChange;
  *
  * Public: No
  */

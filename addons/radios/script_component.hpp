@@ -1,5 +1,5 @@
 #define COMPONENT radios
-#include "\z\potato\addons\core\script_mod.hpp"
+#include "\z\legio\addons\core\script_mod.hpp"
 
 // #define DEBUG_ACRE_API
 // #define DEBUG_MODE_FULL
@@ -14,7 +14,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_RADIOS
 #endif
 
-#include "\z\potato\addons\core\script_macros.hpp"
+#include "\z\legio\addons\core\script_macros.hpp"
 
 // ACRE functions
 #ifdef DEBUG_ACRE_API

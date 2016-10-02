@@ -1,1 +1,1 @@
-#include "\z\potato\addons\safeStart\script_component.hpp"
+#include "\z\legio\addons\safeStart\script_component.hpp"

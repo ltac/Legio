@@ -6,7 +6,7 @@
  * 0: Unit to assign team <OBJECT>
  *
  * Example:
- * [player] call potato_teamColors_fnc_setColor;
+ * [player] call legio_teamColors_fnc_setColor;
  *
  * Public: No
  */

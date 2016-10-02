@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [player, mortar] call potato_vz99_fnc_handlePlayerVehicleChanged
+ * [player, mortar] call legio_vz99_fnc_handlePlayerVehicleChanged
  *
  * Public: No
  */
@@ -56,7 +56,7 @@ _mortarVeh disableNVGEquipment ((hmd _player) == "");
     //Check leveling system
     if (CBA_missionTime > _levelCheck) then {
         _args set [2, (CBA_missionTime + 5)];
-        [_mortarVeh, false] call potato_vz99_fnc_levelToGround;
+        [_mortarVeh, false] call legio_vz99_fnc_levelToGround;
     };
     
 }, 0, [_player, _mortarVeh, (CBA_missionTime + 1)]] call CBA_fnc_addPerFrameHandler;

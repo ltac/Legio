@@ -15,7 +15,7 @@
  * Nothing
  *
  * Example:
- * [firedBIS] call potato_vz99_fnc_doSelectNextMagazine
+ * [firedBIS] call legio_vz99_fnc_doSelectNextMagazine
  *
  * Public: No
  */

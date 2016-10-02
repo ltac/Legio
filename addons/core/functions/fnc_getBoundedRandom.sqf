@@ -11,8 +11,8 @@
  * Random number between the min (inclusive) and the max (exclusive): <NUMBER>
  *
  * Examples:
- * [0, 1] call potato_core_fnc_getBoundedRandom; // random number between 0 and 1
- * [2, 5] call potato_core_fnc_getBoundedRandom; // random number between 2 and 5
+ * [0, 1] call legio_core_fnc_getBoundedRandom; // random number between 0 and 1
+ * [2, 5] call legio_core_fnc_getBoundedRandom; // random number between 2 and 5
  *
  * Public: Yes
  */

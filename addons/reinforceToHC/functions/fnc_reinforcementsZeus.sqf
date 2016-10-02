@@ -9,7 +9,7 @@
  * Always returns true <BOOL>
  *
  * Example:
- * [gameLogic] call potato_reinforceToHC_fnc_reinforcementsZeus;
+ * [gameLogic] call legio_reinforceToHC_fnc_reinforcementsZeus;
  *
  * Public: No
  */

@@ -19,10 +19,10 @@ if (isNil "acre_api_fnc_ignoreAntennaDirection") then {
 // set global settings, see script_component.hpp for default values
 
 ["ace_settingsInitialized", {
-    TRACE_3("",GVAR(enabled),hasInterface,EGVAR(assignGear,usePotato));
+    TRACE_3("",GVAR(enabled),hasInterface,EGVAR(assignGear,useLegio));
 
     if (GVAR(enabled)) then {
-        if !(missionNamespace getVariable [QEGVAR(assignGear,usePotato), false]) exitWith {
+        if !(missionNamespace getVariable [QEGVAR(assignGear,useLegio), false]) exitWith {
             ERROR("Radios enabled, but gear assign is not running");
         };
 

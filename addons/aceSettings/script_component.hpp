@@ -1,5 +1,5 @@
 #define COMPONENT aceSettings
-#include "\z\potato\addons\core\script_mod.hpp"
+#include "\z\legio\addons\core\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -13,4 +13,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_ACESETTINGS
 #endif
 
-#include "\z\potato\addons\core\script_macros.hpp"
+#include "\z\legio\addons\core\script_macros.hpp"

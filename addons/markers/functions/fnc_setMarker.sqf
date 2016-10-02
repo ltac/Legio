@@ -8,7 +8,7 @@
  * 1: MarkerInfo <STRING,BOOL>
  *
  * Example:
- * [object, true] call potato_markers_fnc_setGroupVar;
+ * [object, true] call legio_markers_fnc_setGroupVar;
  *
  * Public: No
  */

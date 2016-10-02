@@ -56,7 +56,7 @@ private _fnc_onConfirm = {
     if (isNull _display) exitWith {};
 
     private _logicObject = missionnamespace getvariable ["BIS_fnc_initCuratorAttributes_target", objnull];
-    if (isNull _logicObject) exitWith {diag_log text format ["[POTATO] - ERROR Logic [%1] is null on confirm", _logicObject];};
+    if (isNull _logicObject) exitWith {diag_log text format ["[LEGIO] - ERROR Logic [%1] is null on confirm", _logicObject];};
 
     private _selectedIndexSide = lbCurSel (_display displayCtrl 23071);
     private _selectedRankIndex = lbCurSel (_display displayCtrl 23072);
@@ -71,11 +71,11 @@ private _fnc_onConfirm = {
 
     //Debug trace to admin log:
     private _debugMsg = format ["Sending Hint to %1", _selectedSide];
-    ["potato_adminMsg", [_debugMsg, profileName]] call CBA_fnc_globalEvent;
+    ["legio_adminMsg", [_debugMsg, profileName]] call CBA_fnc_globalEvent;
 
     //Actual misison hint event:
     private _debugMsg = format ["Sending Hint to %1", _selectedSide];
-    ["potato_missionHint", [_textInput, _selectedSide, _selectedRank]] call CBA_fnc_globalEvent;
+    ["legio_missionHint", [_textInput, _selectedSide, _selectedRank]] call CBA_fnc_globalEvent;
 
 };
 

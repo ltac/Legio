@@ -1,1 +1,1 @@
-#include "\z\potato\addons\miscFixes\script_component.hpp"
+#include "\z\legio\addons\miscFixes\script_component.hpp"

@@ -11,9 +11,9 @@
  * The input value if it's between the bounds, upper bound if above, lower bound if below <NUMBER>
  *
  * Examples:
- * [1, 0, 2] call potato_core_fnc_ensureRange; // returns 1
- * [2, 0, 1] call potato_core_fnc_ensureRange; // returns 1
- * [0, 1, 2] call potato_core_fnc_ensureRange; // returns 1
+ * [1, 0, 2] call legio_core_fnc_ensureRange; // returns 1
+ * [2, 0, 1] call legio_core_fnc_ensureRange; // returns 1
+ * [0, 1, 2] call legio_core_fnc_ensureRange; // returns 1
  *
  * Public: Yes
  */

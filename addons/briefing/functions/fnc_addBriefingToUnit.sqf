@@ -42,7 +42,7 @@ case (civilian):{
         _sideBriefAdministration = getMissionConfigValue [QGVAR(briefCivilianAdministration), ""];;
     };
     default {
-        diag_log text format ["[POTATO] Unknown Side? %1", _side];
+        diag_log text format ["[LEGIO] Unknown Side? %1", _side];
     };
 };
 

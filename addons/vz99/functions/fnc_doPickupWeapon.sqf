@@ -10,7 +10,7 @@
  * Nothing
  *
  * Example:
- * [mortar, player] call potato_vz99_fnc_doPickupWeapon
+ * [mortar, player] call legio_vz99_fnc_doPickupWeapon
  *
  * Public: No
  */

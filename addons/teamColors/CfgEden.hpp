@@ -31,7 +31,7 @@ class Cfg3DEN {
     class Object {
         class AttributeCategories {
             class ADDON {
-                displayName = "POTATO: Team Color";
+                displayName = "LEGIO: Team Color";
                 collapsed = 1;
                 class Attributes {
                     class GVAR(unitMarkerColor) {

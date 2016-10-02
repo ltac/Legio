@@ -10,7 +10,7 @@
  * Nothing
  *
  * Example:
- * [mortar, 45] call potato_vz99_fnc_levelToGround
+ * [mortar, 45] call legio_vz99_fnc_levelToGround
  *
  * Public: No
  */

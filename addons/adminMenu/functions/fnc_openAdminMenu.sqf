@@ -1,4 +1,4 @@
-//potato_adminMenu_fnc_openAdminMenu
+//legio_adminMenu_fnc_openAdminMenu
 
 #include "script_component.hpp"
 TRACE_1("params",_this);

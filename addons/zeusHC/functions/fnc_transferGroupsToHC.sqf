@@ -4,11 +4,11 @@
  * Must be called on the server
  *
  * Arguments:
- * 0: Force all units onto the headless clients? If false, will only move groups with the potato_zeusHC_addGroupToHC flag set <BOOL>
+ * 0: Force all units onto the headless clients? If false, will only move groups with the legio_zeusHC_addGroupToHC flag set <BOOL>
  *
  * Examples:
- * [true] call potato_zeusHC_fnc_transferGroupsToHC; //move them all
- * [] call potato_zeusHC_fnc_transferGroupsToHC; //only move flagged
+ * [true] call legio_zeusHC_fnc_transferGroupsToHC; //move them all
+ * [] call legio_zeusHC_fnc_transferGroupsToHC; //only move flagged
  *
  * Public: Yes
  */
@@ -22,20 +22,20 @@ waitUntil { time > 0 };
 
 //Check the script is run in multiplayer only
 if (!isMultiplayer) exitWith {
-    diag_log text format ["[POTATO] Not in multiplayer, exiting %1",QFUNC(transferGroupsToHC)];
-    diag_log text format ["[POTATO] Broadcasting aiTransfered var (SKIPPED)"];
+    diag_log text format ["[LEGIO] Not in multiplayer, exiting %1",QFUNC(transferGroupsToHC)];
+    diag_log text format ["[LEGIO] Broadcasting aiTransfered var (SKIPPED)"];
     missionNameSpace setVariable [QGVAR(aiTransfered), true, true];
 };
 if (!isServer) exitWith {
-    diag_log text format ["[POTATO] Not executing on server, exiting %1",QFUNC(transferGroupsToHC)];
-    diag_log text format ["[POTATO] Broadcasting aiTransfered var (SKIPPED)"];
+    diag_log text format ["[LEGIO] Not executing on server, exiting %1",QFUNC(transferGroupsToHC)];
+    diag_log text format ["[LEGIO] Broadcasting aiTransfered var (SKIPPED)"];
     missionNameSpace setVariable [QGVAR(aiTransfered), true, true];
 };
 
 private _allHCs = entities "HeadlessClient_F";
 if (_allHCs isEqualTo []) exitWith {
-    diag_log text format ["[POTATO] No headless clients found, exiting %1", QFUNC(transferGroupsToHC)];
-    diag_log text format ["[POTATO] Broadcasting aiTransfered var (SKIPPED)"];
+    diag_log text format ["[LEGIO] No headless clients found, exiting %1", QFUNC(transferGroupsToHC)];
+    diag_log text format ["[LEGIO] Broadcasting aiTransfered var (SKIPPED)"];
     missionNameSpace setVariable [QGVAR(aiTransfered), true, true];
 };
 
@@ -57,6 +57,6 @@ TRACE_1("Time between transfers", _timeBetweenTransfers);
 } count allGroups;
 
 
-diag_log text format ["[POTATO] Broadcasting aiTransfered var (Transfer Done)"];
+diag_log text format ["[LEGIO] Broadcasting aiTransfered var (Transfer Done)"];
 missionNameSpace setVariable [QGVAR(aiTransfered), true, true];
 

@@ -5,7 +5,7 @@
  * Should only be called from UI events
  *
  * Example:
- * [] call potato_reinforceToHC_fnc_reinforcementsDialogLoad;
+ * [] call legio_reinforceToHC_fnc_reinforcementsDialogLoad;
  *
  * Public: No
  */

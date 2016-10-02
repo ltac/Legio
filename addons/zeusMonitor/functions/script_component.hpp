@@ -1,1 +1,1 @@
-#include "\z\potato\addons\zeusMonitor\script_component.hpp"
+#include "\z\legio\addons\zeusMonitor\script_component.hpp"

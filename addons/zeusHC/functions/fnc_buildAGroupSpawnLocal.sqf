@@ -7,8 +7,8 @@
  * 1: unit classnames to add <ARRAY>
  *
  * Examples:
- * [position player, ["WB_Soldier"]] call potato_zeusHC_fnc_buildAGroupSpawnLocal;
- * [[1,2,3], ["WB_Soldier"]] call potato_zeusHC_fnc_buildAGroupSpawnLocal;
+ * [position player, ["WB_Soldier"]] call legio_zeusHC_fnc_buildAGroupSpawnLocal;
+ * [[1,2,3], ["WB_Soldier"]] call legio_zeusHC_fnc_buildAGroupSpawnLocal;
  *
  * Public: No
  */

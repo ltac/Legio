@@ -9,7 +9,7 @@
  * <BOOL>
  *
  * Example:
- * ["potato_vz99_he"] call potato_vz99_fnc_canSelectNextMagazine
+ * ["legio_vz99_he"] call legio_vz99_fnc_canSelectNextMagazine
  *
  * Public: No
  */

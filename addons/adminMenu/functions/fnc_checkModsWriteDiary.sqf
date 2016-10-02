@@ -4,7 +4,7 @@ if ((!hasInterface) || {isNull player}) exitWith {};
 
 params ["_profileName", "_diaryEntry"];
 
-if (!(player diarySubjectExists "POTATO")) then {
-    player createDiarySubject ["POTATO", "POTATO"];
+if (!(player diarySubjectExists "LEGIO")) then {
+    player createDiarySubject ["LEGIO", "LEGIO"];
 };
-player createDiaryRecord ["POTATO", [format ["Mod Check: %1", _profileName], _diaryEntry]];
+player createDiaryRecord ["LEGIO", [format ["Mod Check: %1", _profileName], _diaryEntry]];

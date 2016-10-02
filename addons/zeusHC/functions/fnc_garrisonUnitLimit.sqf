@@ -5,7 +5,7 @@
  * Returns: the unit limit from the mission config, or the mod config <NUMBER>
  *
  * Example:
- * [] call potato_zeusHC_fnc_garrisonUnitLimit;
+ * [] call legio_zeusHC_fnc_garrisonUnitLimit;
  *
  * Public: No
  */

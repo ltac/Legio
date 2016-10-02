@@ -5,10 +5,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"potato_core","ace_laserPointer","ace_map","ace_zeus","ace_hearing","ace_overheating","ace_gforces","ace_goggles","ace_frag","ace_medical","ace_medical_ai","ace_advanced_fatigue", "ace_cookoff"};
-        author = "Potato";
+        requiredAddons[] = {"legio_core","ace_laserPointer","ace_map","ace_zeus","ace_hearing","ace_overheating","ace_gforces","ace_goggles","ace_frag","ace_medical","ace_medical_ai","ace_advanced_fatigue", "ace_cookoff"};
+        author = "Legio";
         authors[] = {"PabstMirror"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = "https://github.com/BourbonWarfare/LEGIO";
         VERSION_CONFIG;
     };
 };

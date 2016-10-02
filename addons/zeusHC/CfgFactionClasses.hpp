@@ -1,21 +1,21 @@
 class CfgFactionClasses {
     class PREFIX;
     class GVAR(custom): PREFIX {
-        displayName = "POTATO HC: Custom";
+        displayName = "LEGIO HC: Custom";
     };
     class GVAR(east): PREFIX {
-        displayName = "POTATO HC: East";
+        displayName = "LEGIO HC: East";
     };
     class GVAR(ind): PREFIX {
-        displayName = "POTATO HC: Independents";
+        displayName = "LEGIO HC: Independents";
     };
     class GVAR(msv): PREFIX {
-        displayName = "POTATO HC: Russian";
+        displayName = "LEGIO HC: Russian";
     };
     class GVAR(util): PREFIX {
-        displayName = "POTATO HC: Utilities";
+        displayName = "LEGIO HC: Utilities";
     };
     class GVAR(west): PREFIX {
-        displayName = "POTATO HC: West";
+        displayName = "LEGIO HC: West";
     };
 };

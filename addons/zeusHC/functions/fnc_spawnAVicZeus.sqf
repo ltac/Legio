@@ -6,7 +6,7 @@
  * 0: logic object <OBJECT>
  *
  * Examples:
- * [objLogic] call potato_zeusHC_fnc_spawnAVicZeus;
+ * [objLogic] call legio_zeusHC_fnc_spawnAVicZeus;
  *
  * Public: No
  */

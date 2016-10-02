@@ -13,28 +13,28 @@ if (hasInterface) then {
         if ((getPlayerUID player) in AUTHORIZED_USERS) then {
             if (!GVAR(playerAuth)) then {
                 GVAR(playerAuth) = true;
-                diag_log text format ["[POTATO]: Player UID [%1] in list", getPlayerUID player];
+                diag_log text format ["[LEGIO]: Player UID [%1] in list", getPlayerUID player];
             };
         };
     }] call CBA_fnc_addEventHandler;
 };
 
-["potato_adminMsg", {
+["legio_adminMsg", {
     params ["_msg", ["_from", "?"], ["_to", ""]];
     if (hasInterface) then {
         if ((_to == profileName) || {_to == "#ALL"} || {(GVAR(showNotifcations)) && {[] call FUNC(isAuthorized)}}) then {
-            systemChat format ["POTATO [%1>%2]: %3", _from, _to, _msg];
+            systemChat format ["LEGIO [%1>%2]: %3", _from, _to, _msg];
         };
     };
     if (isServer) then {
-        diag_log text format ["[POTATO] potato_adminMsg EH: %1", _this];
+        diag_log text format ["[LEGIO] legio_adminMsg EH: %1", _this];
     };
 }] call CBA_fnc_addEventHandler;
 
-["potato_missionHint", {
+["legio_missionHint", {
     //side is 0-dead, 1-dead+alive or actuall side like east/west
     params ["_msg", ["_side", 1, [sideEnemy, 0]], ["_rankMin", 0]];
-    TRACE_3("potato_missionHint eh",_msg,_side,_rankMin);
+    TRACE_3("legio_missionHint eh",_msg,_side,_rankMin);
     if (hasInterface) then {
         if ((_side isEqualTo 1) || {(!alive player) && {_side isEqualTo 0}} || {_side isEqualTo GVAR(playerStartingSide)}) then {
             private _playerRank = if (alive player) then {rankId player} else {999};
@@ -44,6 +44,6 @@ if (hasInterface) then {
         };
     };
     if (isServer) then {
-        diag_log text format ["[POTATO] potato_missionHint EH: %1", _this];
+        diag_log text format ["[LEGIO] legio_missionHint EH: %1", _this];
     };
 }] call CBA_fnc_addEventHandler;

@@ -10,7 +10,7 @@
  * <BOOL>
  *
  * Example:
- * [player, player] call potato_vz99_fnc_canDeployWeapon;
+ * [player, player] call legio_vz99_fnc_canDeployWeapon;
  *
  * Public: No
  */

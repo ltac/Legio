@@ -9,7 +9,7 @@
  * Nothing
  *
  * Example:
- * ["potato_vz99_he"] call potato_vz99_fnc_doSelectNextMagazine
+ * ["legio_vz99_he"] call legio_vz99_fnc_doSelectNextMagazine
  *
  * Public: No
  */
